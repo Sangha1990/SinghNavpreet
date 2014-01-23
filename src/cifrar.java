@@ -18,7 +18,7 @@ public class cifrar {
 				InputStreamReader leer_clave = new InputStreamReader(System.in);
 				BufferedReader buff_clave = new BufferedReader(leer_clave);
 				System.out.print("Escriba una clave: ");
-				System.out.print("");
+				
 				String clave = buff_clave.readLine();
 				
 				// pasar clave a la clase SecretKey
